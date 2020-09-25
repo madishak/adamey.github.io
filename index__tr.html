@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adamey - Polimer torba imalatı</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css"/>
+    <script src="js/jquery-3.1.1.js" ></script>
+    <script src="js/jquery.smooth-scroll.js" ></script>
+    <script src="WOW-master/dist/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $('a').click(function () {
+            $('body').animate({
+                right: "0px"
+            }, 200);
+            $('.header__menu').animate({
+                right: "-285px"
+            }, 200);
+
+        })
+    });
+    $(document).ready(function(){
+
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+<header class="header">
+
+    <div class="header__menu__block">
+    <div class="header__menu">
+
+        <!-- Menu icon -->
+        <div class="header__icon-close"></div>
+
+        <!-- Menu -->
+        <ul class="header__navbar__hide">
+            <li><a href="#home">ana sayfa</a></li>
+            <li><a href="#company">hakkımızda</a></li>
+            <li><a href="#production">ürünler</a></li>
+            <li><a href="#why__we">neden biz</a></li>
+            <li><a href="#contacts">İletişim</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="header__icon-menu"></div>
+
+    <script>
+
+        $(document).ready(function () {
+            $('.header__icon-menu').click(function() {
+                $('.header__menu').animate({
+                    right: "0px"
+                }, 200);
+
+                $('body').animate({
+                    right: "285px"
+                }, 200);
+
+            });
+
+
+            $('.header__icon-close').click(function() {
+                $('.header__menu').animate({
+                    right: "-285px"
+                }, 200);
+
+                $('body').animate({
+                    right: "0px"
+                }, 200);
+
+
+            });
+
+        });
+
+
+    </script>
+
+    <div class="header__fixed_menu">
+<div class="wrapper">
+    <a href="#"><div class="header__navbar__logo"></div></a>
+<ul class="header__navbar">
+    <li><a href="#home">ana sayfa</a></li>
+    <li><a href="#company">hakkımızda</a></li>
+    <li><a href="#production">ürünler</a></li>
+    <li><a href="#why__we">neden biz</a></li>
+    <li><a href="#contacts">İletişim</a></li>
+</ul>
+</div>
+
+</div>
+
+
+    <script>
+    /*    jQuery("document").ready(function($){
+
+            var nav = $('.header__fixed_menu');
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    nav.addClass("f-nav");
+                } else {
+                    nav.removeClass("f-nav");
+                }
+            });
+
+        });*/
+    </script>
+
+</header>
+<div class="header__languages">
+    <a href="index.html"><img src="images/russia_round_icon_64.png"></a>
+    <a href="index__en.html"><img src="images/united_kingdom_round_icon_64.png"></a>
+    <a href="#"><img src="images/turkey_round_icon_64.png"></a>
+
+</div>
+<div class="section__home" id="home">
+
+    <div class="section__home__title">
+        <div class="section__home__title__number">20</div>
+        <div class="section__home__title__text">piyasada yıllar</div>
+    </div>
+    <div class="section__home__line"></div>
+    <div class="section__home__caption">
+        Polimer malzemelerden paketleme ürünlerinin imalatı ve satışı.
+                 Ayrıca sicim ve geri dönüşümlü ürünlerin satışı.
+    </div>
+
+    <div class="section__home__button__block wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+    <div class="section__home__button1">
+        <a href="#company">daha</a>
+    </div>
+    <div class="section__home__button2">
+        <a href="#production">ürünler</a>
+    </div>
+    </div>
+</div>
+
+<section class="paragraph" id="company">
+<div class="inner">
+
+    <div class="paragraph__logo wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30"></div>
+
+    <div class="paragraph__text wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+        <span class="paragraph__title">hakkımızda</span>
+        <div class="paragraph__caption">28 Ekim 1996'dan bu yana piyasada bulunan "Adamey" Limited şirketi. Bize, çeşitli amaçlar için polipropilen ambalaj satın alabilirsiniz: un için paketler, şeker için paketler, inşaat molozları, vs. Ayrıca, herhangi bir boyutta ambalaj sipariş edebilirsiniz, Yanı sıra standart veya standart dışı. Siparişi almaya ve işe başlamak için daima hazırım. Kendi imalat, modern ekipman, hammadde tedarikçileriyle doğrudan çalışma, mükemmel işçiler, mükemmel kalitede polipropilen torbalar üretmeyi mümkün kılar. Doğrudan bizimle çalışarak, aracılardan ve temsilcilerin fiyatı olmadan üreticiden polipropilen torbalar satın alabilirsiniz!
+            <span class="paragraph__caption__continue">Bölgelerde temsilcilikler ağı geliştirmeyi umuyoruz. "Adamey" şirketi, Voronez, Stavropol Bölgesi, Krasnodar Bölgesi, Astrakhan, Dağıstan Cumhuriyeti, Çeçen Cumhuriyeti gibi Rusya'nın farklı bölgelerine teslimat yapıyor. Firmamız büyük ve küçük toptan satış için uygun koşulları sunmaya hazırdır.</span>
+
+        </div>
+
+        <div class="paragraph__button__block">
+            <button class="paragraph__button">daha</button>
+        </div>
+        <div class="paragraph__button__block">
+            <button class="paragraph__button__hide">saklamak</button>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".paragraph__button").click(function(){
+                    $(".paragraph").animate({height: "640px"});
+                    $(".paragraph__caption").animate({height: "360px"});
+                    $(".paragraph__caption__continue").slideDown();
+                    $(".paragraph__button").hide();
+                    $(".paragraph__button__hide").show();
+                });
+                $(".paragraph__button__hide").click(function(){
+                    $(".paragraph").animate({height: "520px"});
+                    $(".paragraph__caption").animate({height: "250px"});
+                    $(".paragraph__caption__continue").slideUp();
+                    $(".paragraph__button__hide").hide();
+                    $(".paragraph__button").show();
+                });
+            });
+
+            if(window.matchMedia(' (max-width: 575px) ' ).matches) {
+                $(document).ready(function(){
+                    $(".paragraph__button").click(function(){
+                        $(".paragraph").animate({height: "800px"});
+                        $(".paragraph__caption").animate({height: "430px"});
+                        $(".paragraph__caption__continue").slideDown();
+                        $(".paragraph__button").hide();
+                        $(".paragraph__button__hide").show();
+                    });
+                    $(".paragraph__button__hide").click(function(){
+                        $(".paragraph").animate({height: "620px"});
+                        $(".paragraph__caption").animate({height: "250px"});
+                        $(".paragraph__caption__continue").slideUp();
+                        $(".paragraph__button__hide").hide();
+                        $(".paragraph__button").show();
+                    });
+                });
+            }
+        </script>
+    </div>
+
+
+</div>
+</section>
+
+<section class="video">
+    <div class="inner">
+        <script>
+           $(document).ready(function () {
+                $(".video__title").mouseover(function () {
+                    $(".video__title").hide();
+                    $(".video__play").show();
+
+                });
+
+                $(".video__play").mouseout(function () {
+                    $(".video__play").hide();
+                    $(".video__title").css("display", "block").show();
+
+                });
+            });
+          /* var videoTitle = $(".video__title").hover();
+            $(document).ready(function () {
+                if (videoTitle) {
+
+                    $(".video__title").hide();
+                    $(".video__play").show();
+                } else {
+
+                    $(".video__play").hide();
+                    $(".video__title").css("display", "block").show();
+                }
+            });*/
+
+          /*$(document).ready(function () {
+              $(".video__title").hover(function () {
+                  $(".video__title").hide();
+                  $(".video__play").show();
+              });
+              $(".video__play").mouseover(function () {
+                  $(".video__play").hide();
+                  $(".video__title").css("display", "block");
+              });
+          })*/
+
+
+        </script>
+        <div class="video__title">
+            <span>Hakkımızda video izle</span>
+            <p>Sessiz video</p>
+            <!--<a href="#" class="video__title__icon"> </a>-->
+                <!--<div class="icon-play-circled2"></div>-->
+            <img src="images/play2.png" class="icon-play">
+        </div>
+
+        <div class="video__play">
+
+       <video  controls>
+    <source src="video/VID-20170406-WA0044.1.mp4" type="video/mp4">
+           Tarayıcınız videoyu desteklemez
+
+</video>
+
+        </div>
+         </div>
+
+
+</section>
+<!--<script>-->
+
+    <!--$('.video').on("mouseover", "video", function(){-->
+        <!--this.play();-->
+    <!--});-->
+    <!--$(".video").on("mouseleave", "video", function(){-->
+        <!--this.stop();-->
+    <!--})-->
+<!--</script>-->
+<section class="icon">
+    <div class="inner">
+        <div class="icon__block1 wow fadeInLeft animated" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="icon__block__image1"></div>
+            <div class="icon__block__title">avantajları</div>
+            <div class="icon__block__caption">Polimer malzemeden yapılmış torbaların operasyonel avantajları, ürünlerin açık alanlarda depolanmasının yanı sıra çeşitli asitlere ve diğer kimyasallara direnç açısından özellikle önemli olan suya dayanıklı olmasıdır. Polimer torbaları daha yüksek bir darbe mukavemeti ve mukavemetine sahiptir. Polietilen torbalar ağırlığa hafif ama daha dayanıklıdır, ağır yüklere dayanabilirler. Sadece 6-7 gram ağırlığında bir pakette, 6,5 kg yük koyabilirsiniz - pakette ağırlığın yaklaşık 1000 katı.</div>
+        </div>
+        <div class="icon__block2  wow fadeInRight animated" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="icon__block__image2"></div>
+            <div class="icon__block__title">Uygulama alanı</div>
+            <div class="icon__block__caption">Polimer poşetler, kimyasal ürünler, sentetik deterjanlar, polimer reçineleri, mineral gübreler, çimento ve bazı gıda ürünlerinin yanı sıra un, tahıl ürünleri, Şeker ve nişasta. Antistatik filmlerden yapılmış torbalar tehlikeli maddelerin ambalajlanması için uygundur.</div>
+        </div>
+    </div>
+</section>
+
+<section class="works" id="production">
+    <div class="works__title">ürünlerimiz:</div>
+
+    <div class="works__slider">
+        <div class="single-item">
+        <div><img src="images/works/Без имени-11.jpg"></div>
+        <div><img src="images/works/20170530_143040.jpg"></div>
+        <div><img src="images/works/20170530_143310.jpg"></div>
+        <div><img src="images/works/Без имени-3.jpg"></div>
+        <div><img src="images/works/Без имени-2.jpg"></div>
+        <div><img src="images/works/hen2.jpg"></div>
+        <div><img src="images/works/Без имени-15.jpg"></div>
+        <div><img src="images/works/Без имени-5.jpg"></div>
+        <div><img src="images/works/Без имени-1.jpg"></div>
+        <div><img src="images/works/hen.jpg"></div>
+        <div><img src="images/works/cow.jpg"></div>
+        <div><img src="images/works/sugar.jpg"></div>
+        <div><img src="images/works/20170530_142235.jpg"></div>
+        <div><img src="images/works/region.jpg"></div>
+    </div>
+    </div>
+
+
+    <div class="works__block1 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+        <div class="works__img1"></div>
+        <div class="works__img2"></div>
+        <div class="works__img3"></div>
+        <div class="works__img4"></div>
+        <div class="works__img5"></div>
+        <div class="works__img6"></div>
+        <div class="works__img7"></div>
+        <div class="works__img8"></div>
+        <div class="works__img9__hide"></div>
+    </div>
+
+    <div class="works__block2">
+        <div class="works__img9"></div>
+        <div class="works__img10"></div>
+        <div class="works__img11"></div>
+        <div class="works__img12"></div>
+        <div class="works__img13"></div>
+        <div class="works__img14"></div>
+    </div>
+
+
+    <div class="works__button__block wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+        <button class="works__button">daha fazla göster</button>
+    </div>
+    <div class="works__button__block">
+        <button class="works__button__hide">saklamak</button>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".works__button").click(function(){
+                $(".works").animate({height: "1290px"});
+                $(".works__block2").slideDown();
+                $(".works__button").hide();
+                $(".works__button__hide").show();
+            });
+            $(".works__button__hide").click(function(){
+                $(".works").animate({height: "720px"});
+                $(".works__block2").slideUp();
+                $(".works__button__hide").hide();
+                $(".works__button").show();
+            });
+
+
+        });
+
+     /*   if(window.matchMedia('(min-width: 320px)').matches)
+        {
+            $(document).ready(function(){
+                $(".works__button").click(function(){
+                    $(".works").animate({height: "1870px"});
+                    $(".works__block2").slideDown();
+                    $(".works__button").hide();
+                    $(".works__button__hide").show();
+                });
+                $(".works__button__hide").click(function(){
+                    $(".works").animate({height: "1600px"});
+                    $(".works__block2").slideUp();
+                    $(".works__button__hide").hide();
+                    $(".works__button").show();
+                });
+
+
+            });
+        }*/
+
+        if(window.matchMedia('(max-width: 1199px)').matches)
+        {
+            $(document).ready(function(){
+                $(".works__button").click(function(){
+                    $(".works").animate({height: "1570px"});
+                    $(".works__block2").slideDown();
+                    $(".works__button").hide();
+                    $(".works__button__hide").show();
+                });
+                $(".works__button__hide").click(function(){
+                    $(".works").animate({height: "1000px"});
+                    $(".works__block2").slideUp();
+                    $(".works__button__hide").hide();
+                    $(".works__button").show();
+                });
+
+
+            });
+        }
+        if(window.matchMedia(' (max-width: 991px)').matches)
+        {
+            $(document).ready(function(){
+                $(".works__button").click(function(){
+                    $(".works").animate({height: "2100px"});
+                    $(".works__block2").slideDown();
+                    $(".works__button").hide();
+                    $(".works__button__hide").show();
+                });
+                $(".works__button__hide").click(function(){
+                    $(".works").animate({height: "1280px"});
+                    $(".works__block2").slideUp();
+                    $(".works__button__hide").hide();
+                    $(".works__button").show();
+                });
+
+
+            });
+        }
+
+    </script>
+</section>
+
+
+<section class="features" id="why__we">
+    <div class="inner">
+        <div class="features__title">neden biz:</div>
+
+        <div class="features__block1 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+
+            <div class="features__wrapper">
+            <div class="features__block__image1"></div>
+            <div class="features__block__caption">Piyasada 20 yıl. Büyük bir deneyim. Rusya her yerinden müşteriler.</div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image2"></div>
+            <div class="features__block__caption">Seçtiğiniz ürünlerin renk aralığı. Ayrıca, polipropilen torbalar üzerine logo, marka bilinci oluşturma ve diğer iletişim bilgilerini de yazdırıyoruz.</div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image3"></div>
+            <div class="features__block__caption">Toptan ve perakende satışlar, aracılar ve temsilciler olmadan.</div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image4"></div>
+            <div class="features__block__caption">Çeşitli amaçlar için polipropilen torba imalatı: dökme ürünler, yem, inşaat çantaları, nakliye, vb.</div>
+            </div>
+
+        </div>
+
+        <div class="features__block2 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="features__wrapper">
+            <div class="features__block__image5"></div>
+            <div class="features__block__caption">Her müşteriye bireysel yaklaşım.</div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image6"></div>
+            <div class="features__block__caption">Çalışmalarımız için, yalnızca uzun zamandır kurulmuş ve güvenilir tedarikçilerden temin edilen yüksek kaliteli birinci hammadde kullanıyoruz. </div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image7"></div>
+            <div class="features__block__caption">Standart ölçülerde polipropilen torbalar üretiyoruz: 5kg, 10kg, 25kg, 50kg, ve siparişe göre.</div>
+            </div>
+
+            <div class="features__wrapper">
+            <div class="features__block__image8"></div>
+            <div class="features__block__caption">Ayrıca, bir şeyin soyunması için kullanılan sicim ve geri dönüşümlü (polimer kırıntı).</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="phone">
+    <div class="inner">
+    <div class="phone__text__block wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+    <div class="phone__text1"> Biz sorunuz ??? çağrı</div>
+    <div class="phone__text2"> +7(8662) 42-26-63</div>
+    <div class="phone__text3"> veya telefon numaranızı bırakın, biz geri arayacağım</div>
+    </div>
+
+<form class="phone__form wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30" action="index__tr.php" method="post">
+    <div class="phone__wrapper">
+    <div class="error"><?=@$error1;?></div>
+    <input type="text" placeholder="Adınız" name="nickname" class="phone__input">
+    </div>
+    <div class="phone__wrapper">
+    <div class="error"><?=@$error2;?></div>
+    <input type="text" placeholder="Telefon numarası" name="number" class="phone__input">
+    </div>
+    <div class="phone__wrapper__button">
+    <input type="submit" value="göndermek" class="phone__button">
+    </div>
+</form>
+    <script>
+        if (('.error') !== null) {
+            $('.phone__button').slideDown();
+        }
+    </script>
+        <!--<?=@$success;?>-->
+        <!--<?php $success = "<script> alert(".@$message. ")</script>";?>-->
+        <!--<script>-->
+            <!--alert ("<?php @$message ?>");-->
+        <!--</script>-->
+        <!--<?php-->
+<!--echo @$message;-->
+<!--?>-->
+        <!--<script>-->
+            <!--function message() {-->
+                <!--alert("<?php"+ "@$message" + "?>");-->
+            <!--}-->
+
+        <!--</script>-->
+        <!--<?php-->
+            <!--function message() {-->
+                <!--@$message;-->
+            <!--}-->
+        <!--?>-->
+    </div>
+</section>
+
+<section class="geography">
+    <div class="inner">
+        <div class="geography__text">Rusya'da teslimatlar</div>
+        <div class="geography__map wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30"></div>
+
+        <div class="geography__list__block">
+            <div class="geography__list__caption">Rusya Federasyonu Cubekty, kiminle biz çalıştık:</div>
+            <div class="geography__list__tablet ">
+        <div class="geography__list position">
+            <ul>
+                <li>Astragan</li>
+                <li>Voronej</li>
+            </ul>
+        </div>
+
+        <div class="geography__list ">
+            <ul>
+                <li>Kabardey-Balkar Cumhuriyeti</li>
+                <li>Krasnodar bölgesi</li>
+                <li></li>
+            </ul>
+        </div>
+            </div>
+
+            <div class="geography__list__tablet">
+        <div class="geography__list position">
+            <ul>
+                <li>Kırım Cumhuriyeti</li>
+                <li>Stavropol</li>
+            </ul>
+        </div>
+
+            <div class="geography__list">
+                <ul>
+                    <li>Dağıstan Cumhuriyeti</li>
+                    <li>Çeçen Cumhuriyeti</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="geography__button__block wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <button class="geography__button">daha</button>
+        </div>
+        <div class="geography__button__block">
+            <button class="geography__button__hide">saklamak</button>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".geography__button").click(function(){
+
+                    $(".geography").animate({height: "770px"});
+                    $(".geography__list__block").slideDown();
+                    $(".geography__button").hide();
+                    $(".geography__button__hide").show();
+                });
+                $(".geography__button__hide").click(function(){
+                    $(".geography").animate({height: "725px"});
+                    $(".geography__list__block").slideUp();
+                    $(".geography__button__hide").hide();
+                    $(".geography__button").show();
+                });
+            });
+
+            if(window.matchMedia('(max-width: 575px)').matches)
+            {
+                $(document).ready(function(){
+                    $(".geography__button").click(function(){
+
+                        $(".geography").animate({height: "890px"});
+                        $(".geography__list__block").slideDown();
+                        $(".geography__button").hide();
+                        $(".geography__button__hide").show();
+                    });
+                    $(".geography__button__hide").click(function(){
+                        $(".geography").animate({height: "725px"});
+                        $(".geography__list__block").slideUp();
+                        $(".geography__button__hide").hide();
+                        $(".geography__button").show();
+                    });
+                });
+            }
+            if(window.matchMedia('(min-width: 576px) and (max-width: 767px)').matches)
+            {
+                $(document).ready(function(){
+                    $(".geography__button").click(function(){
+
+                        $(".geography").animate({height: "800px"});
+                        $(".geography__list__block").slideDown();
+                        $(".geography__button").hide();
+                        $(".geography__button__hide").show();
+                    });
+                    $(".geography__button__hide").click(function(){
+                        $(".geography").animate({height: "725px"});
+                        $(".geography__list__block").slideUp();
+                        $(".geography__button__hide").hide();
+                        $(".geography__button").show();
+                    });
+                });
+            }
+        </script>
+
+        <div class="geography__text">Müşterilerimiz:</div>
+        <div class="geography__slider">
+        <div class="responsive">
+            <div><img src="images/labels/Без%20имени-3.jpg"></div>
+            <div><img src="images/labels/agroproduct.jpg"></div>
+            <div><img src="images/labels/atu.jpg"></div>
+            <div><img src="images/labels/dargo.jpg"></div>
+            <div><img src="images/labels/ekokrop.jpg"></div>
+            <div><img src="images/labels/mamkorm.jpg"></div>
+            <div><img src="images/labels/region.jpg"></div>
+            <div><img src="images/labels/rossoshgibrid.jpg"></div>
+            <div><img src="images/labels/vita__lain.jpg"></div>
+        </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="feedback" id="contacts">
+    <div class="inner">
+
+        <div class="feedback__title">temasta olmak</div>
+
+        <form class="feedback__form" method="post" action="index__tr.php">
+            <div class="feedback__input__wrapper wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+                <div class="feedback__wrapper">
+                    <div class="feedback__error"><?=@$error3;?></div>
+        <input type="text" placeholder="Adınız" name="username" class="feedback__input">
+                </div>
+                <div class="feedback__wrapper">
+                    <div class="feedback__error"><?=@$error4;?></div>
+        <input type="email" placeholder="E-posta" name="email" class="feedback__input">
+                </div>
+                <div class="feedback__wrapper">
+                    <div class="feedback__error"><?=@$error5;?></div>
+        <input type="text" placeholder="Telefon numarası" name="phone" class="feedback__input">
+                </div>
+            </div>
+            <div class="feedback__wrapper__textarea">
+                <div class="feedback__error"><?=@$error6;?></div>
+        <textarea placeholder="Mesajınızı girin" name="text" class="feedback__textarea wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30"></textarea>
+            </div>
+        <input type="submit" value="göndermek" class="feedback__button wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+
+        </form>
+        <!--<?=@$success;?>-->
+    </div>
+</section>
+
+<section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.192003942699!2d43.617108314960596!3d43.49832997912691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405a06d8bd32c3ab%3A0xbc6c28ec98166397!2z0YPQuy4g0KbQuNC-0LvQutC-0LLRgdC60L7Qs9C-LCA3LCDQndCw0LvRjNGH0LjQuiwg0JrQsNCx0LDRgNC00LjQvdC-LdCR0LDQu9C60LDRgNGB0LrQsNGPINCg0LXRgdC_LiwgMzYwMDE1!5e0!3m2!1sru!2sru!4v1496389784537" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<section class="contacts">
+    <div class="inner">
+        <div class="contacts__block wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="contacts__icon__location"></div>
+            <div class="contacts__caption">360015 Rusya Federasyonu, KBR, Nalchik, sk. Tsiolkovsky 7, konut 15</div>
+        </div>
+        <div class="contacts__block wow animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="contacts__icon__phone"></div>
+            <div class="contacts__caption">
+                <p>8(8662) 44-26-63;</p>
+                <p>8(8662) 44-21-67;</p>
+                <p>8(8662) 44-27-25;</p>
+            </div>
+        </div>
+        <div class="contacts__block wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.15s" data-wow-offset="30">
+            <div class="contacts__icon__envelope"></div>
+            <div class="contacts__caption">adamey@mail.ru</div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer__copy">&copy;2017 ООО"Адамей"</div>
+    <div class="footer__developer">Web geliştirici : Madina Karachai</div>
+
+    <div class="footer__button">
+        <a href="#" class="scrollToTop"></a>
+    </div>
+    <script>
+
+      /*  $(window).scroll(function () {
+            var scrollTop = $(document).scrollTop();
+            if (scrollTop > 400) { // тут указываешь в пикселях сколько надо проскролить
+                // тут к кнопке задаем стили для показа или добавляем класс
+
+               $('.scrollToTop').addClass('show');
+
+
+            } else {
+                // тут удаляем класс
+                $('.scrollToTop').removeClass('show');
+            }
+
+        });
+        $('body').on( 'click', '.scrollToTop', function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+*/
+
+
+      $(document).ready(function(){
+
+          //Check to see if the window is top if not then display button
+          $(window).scroll(function(){
+              if ($(this).scrollTop() > 280) {
+                  $('.scrollToTop').fadeIn();
+              } else {
+                  $('.scrollToTop').fadeOut();
+              }
+          });
+
+          //Click event to scroll to top
+          $('.scrollToTop').click(function(){
+              $('html, body').animate({scrollTop : 0},800);
+              return false;
+          });
+
+      });
+    </script>
+
+</footer>
+
+<script src="js/jquery-3.1.1.js" ></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
+<script>
+    $('.single-item').slick();
+</script>
+<script>
+
+
+    $('.responsive').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 320,
+
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false
+
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+
+    });
+
+</script>
+</body>
+</html>
